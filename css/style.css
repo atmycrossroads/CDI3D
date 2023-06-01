@@ -9,11 +9,11 @@
   body {
 	font-family: Arial, sans-serif;
 	line-height: 1.6;
-	padding: 20px;
+	
   }
   
   header {
-	background-color: #333;
+	background-color: #3F5E31;
 	color: #fff;
 	padding: 10px;
   }
@@ -32,6 +32,12 @@
   nav ul li a {
 	color: #fff;
 	text-decoration: none;
+	padding: 10px;
+  }
+
+  nav ul li .current{
+	background-color: #FFC100;
+	text-decoration: none;
   }
   
   main {
@@ -39,7 +45,7 @@
   }
   
   footer {
-	background-color: #333;
+	background-color: #262322;
 	color: #fff;
 	padding: 10px;
 	position: fixed;
